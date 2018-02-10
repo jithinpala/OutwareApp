@@ -88,7 +88,7 @@ extension RootViewController {
 extension RootViewController {
     
     
-    /// Show UIIMageView animation
+    /// Show UIIMageView animation.
     func showImageAnimation() {
         SWImageAnimation.sharedInstance.playImageAnimation(animationImageView) { (finished) in
             self.hideImageAnimationandShowLabel()
@@ -96,7 +96,7 @@ extension RootViewController {
     }
     
     
-    /// Call this method after the completion of UIImageView animation
+    /// Call this method after the completion of UIImageView animation.
     func hideImageAnimationandShowLabel() {
         UIView.animate(withDuration: 1, delay: 0.7, options: .curveEaseIn, animations: {
             self.animationImageView.isHidden = true
