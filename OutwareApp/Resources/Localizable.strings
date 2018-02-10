@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  OutwareApp
+
+  Created by Jithin on 8/2/18.
+  Copyright © 2018 Jithinpala. All rights reserved.
+*/
+
+"Product.Display.Name" = "Star Wars";
+
+
+"alert.button.ok"      = "OK";
+"alert.yes"            = "YES";
+"alert.no"             = "NO";
+
+"Alert.webservice.failure" = "Unable to communicate with the server. Please check the connectivity and try again.";
+"Alert.people.list.empty"  = "Oops.. No data to display.";
+
+"Progress.hud.loading"  = "Loading...";
+"Label.warning.message" = "Please check your network connection.";
